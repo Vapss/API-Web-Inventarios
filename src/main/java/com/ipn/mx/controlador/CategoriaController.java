@@ -43,7 +43,7 @@ public class CategoriaController {
 		return service.findAll();
 	}
 	
-	@PutMapping("/categoria/update/{id}")
+	@PutMapping("/categoria/{id}")
 	public ResponseEntity<?> update(@Valid @RequestBody Categoria categoria, BindingResult resultado, @PathVariable Long id){
 		Categoria categoriaActual = service.findById(id);
 		Categoria categoriaActualizada = null;
@@ -71,7 +71,7 @@ public class CategoriaController {
 		
 	}
 	
-	@DeleteMapping("/categoria/delete/{id}")
+	@DeleteMapping("/categoria/{id}")
 	public ResponseEntity<?> delete(@Valid @PathVariable Long id){
 		Map<String,Object> response = new HashMap<>();
 		try {
@@ -110,7 +110,7 @@ public class CategoriaController {
 	
 	
 	
-	@PostMapping("/categoriaNew")
+	@PostMapping("/categoria")
 	public ResponseEntity<?> create(@Valid @RequestBody Categoria categoria,
 	BindingResult resultado){
 		Categoria catagoriaNueva = null;
