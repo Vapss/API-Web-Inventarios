@@ -65,7 +65,7 @@ public class CategoriaController {
 			return new ResponseEntity<Map<String,Object>>(respuesta, HttpStatus.INTERNAL_SERVER_ERROR); 
 		}
 		
-		respuesta.put("mensaje", "La categoria se actualizo correctamente");
+		respuest	a.put("mensaje", "La categoria se actualizo correctamente");
 		respuesta.put("categoria", categoriaActualizada);
 		return new ResponseEntity<Map<String,Object>>(respuesta, HttpStatus.CREATED);
 		
