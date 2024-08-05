@@ -1,0 +1,201 @@
+repo_name: Vapss/API-Web-Inventarios
+report_id: 9f38dee23989657e0cbeaf711369d126
+version: 0.1
+repo_type: Public
+timestamp: '2024-08-05T05:24:59+00:00'
+requested_by: Vapss
+provider: github
+branch: main
+detected_tools_count: 14
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/Vapss/API-Web-Inventarios
+  detection_source: Repo Metadata
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/Vapss/API-Web-Inventarios/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: José Antonio Portuguez Vázquez
+  last_updated_on: 2022-06-14 21:20:45.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/Vapss/API-Web-Inventarios/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: José Antonio Portuguez Vázquez
+  last_updated_on: 2022-06-14 21:20:45.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/Vapss/API-Web-Inventarios/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: José Antonio Portuguez Vázquez
+  last_updated_on: 2022-06-14 21:20:45.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Vapss/API-Web-Inventarios
+  detection_source: Repo Metadata
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/Vapss/API-Web-Inventarios/blob/main/src/main/resources/application.properties
+  detection_source: src/main/resources/application.properties
+  last_updated_by: José Antonio Portuguez Vázquez
+  last_updated_on: 2022-06-14 21:20:45.000000000 Z
+- name: org.postgresql:postgresql
+  description: The PostgreSQL Driver JDBC4
+  version: '9.4'
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Vapss/API-Web-Inventarios/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: José Antonio Portuguez Vázquez
+  last_updated_on: 2022-06-14 21:20:45.000000000 Z
+  vulnerabilities:
+  - name: 'Duplicate Advisory: SQL injection in pgjdbc'
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-xfg6-62px-cxc2
+    detected_date: Feb 21
+    severity: critical
+    first_patched: 42.2.8
+  - name: org.postgresql:postgresql vulnerable to SQL Injection via line comment generation
+    cve_id: CVE-2024-1597
+    cve_url: https://github.com/advisories/GHSA-24rp-q3w6-vc56
+    detected_date: Feb 22
+    severity: critical
+    first_patched: 42.2.28
+  - name: PostgreSQL JDBC Driver SQL Injection in ResultSet.refreshRow() with malicious
+      column names
+    cve_id: CVE-2022-31197
+    cve_url: https://github.com/advisories/GHSA-r38f-c4h4-hqq2
+    detected_date: Aug 7
+    severity: high
+    first_patched: 42.2.26
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Vapss/API-Web-Inventarios/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: José Antonio Portuguez Vázquez
+  last_updated_on: 2022-06-14 21:20:45.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Vapss/API-Web-Inventarios/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: José Antonio Portuguez Vázquez
+  last_updated_on: 2022-06-14 21:20:45.000000000 Z
+- name: org.springframework.boot:spring-boot-devtools
+  description: Spring Boot Developer Tools
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Vapss/API-Web-Inventarios/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: José Antonio Portuguez Vázquez
+  last_updated_on: 2022-06-14 21:20:45.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Vapss/API-Web-Inventarios/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: José Antonio Portuguez Vázquez
+  last_updated_on: 2022-06-14 21:20:45.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Vapss/API-Web-Inventarios/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: José Antonio Portuguez Vázquez
+  last_updated_on: 2022-06-14 21:20:45.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-validation
+  description: Starter for using Java Bean Validation with Hibernate Validator
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Vapss/API-Web-Inventarios/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: José Antonio Portuguez Vázquez
+  last_updated_on: 2022-06-14 21:20:45.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Vapss/API-Web-Inventarios/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: José Antonio Portuguez Vázquez
+  last_updated_on: 2022-06-14 21:20:45.000000000 Z
